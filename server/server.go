@@ -65,7 +65,7 @@ func main() {
 
 	http.HandleFunc("/cotacao", func(w http.ResponseWriter, r *http.Request) {
 		// Contexto com timeout para consultar a API externa
-		ctxAPI, cancelAPI := context.WithTimeout(context.Background(), 1000*time.Millisecond)
+		ctxAPI, cancelAPI := context.WithTimeout(context.Background(), 200*time.Millisecond)
 		defer cancelAPI()
 
 		req, err := http.NewRequestWithContext(ctxAPI, "GET", "https://economia.awesomeapi.com.br/json/last/USD-BRL", nil)
