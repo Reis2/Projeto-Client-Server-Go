@@ -22,6 +22,7 @@ O objetivo do projeto é obter a cotação atual do dólar em relação ao real 
    cd Projeto-Client-Server-Go
 
 2. **Executando programa**
+   
    2.1 Abrindo um terminal dedicado a uma abertura do servidor:
       ```console
       cd server
