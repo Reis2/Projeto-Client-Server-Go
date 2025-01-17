@@ -11,7 +11,7 @@ O objetivo do projeto é obter a cotação atual do dólar em relação ao real 
 ## Funcionalidade
 
 - Realiza uma requisição no código **server.go** da cotacao atual do dólar (USD) em realção ao real (BRL) no site [economia.awesomeapi](https://economia.awesomeapi.com.br/json/last/USD-BRL).
-- No código principal **client.go** o resultado obtido pelo server é requisitado pelo método GET do localhost (porta 8080).
+- No código principal, **client.go**, o resultado obtido pelo server é requisitado pelo método GET do localhost (porta 8080).
 - Após a execução dos programas, é possível observar que os arquivos cotacao.txt e cotacoes.db são criados ou atualizados com a cotação atual do dólar.
 
 ## Como Executar
